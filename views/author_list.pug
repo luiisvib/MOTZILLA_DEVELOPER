@@ -5,9 +5,9 @@ block content
 
   ul
     each author in author_list
-    li
-      a(href=author.url) #{author.name}
-      |  (#{author.lifespan})
+      li
+        a(href=author.url) #{author.name}
+        |  (#{author.lifespan})
 
     else
       li There are no authors.
